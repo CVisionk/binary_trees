@@ -75,9 +75,13 @@
 	- If tree is NULL, your function must return 0
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 12-binary_tree_leaves.c tests/12-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 12-leaves
 
-**12. Nodes**
+**13. Nodes**
 - [tests/13-main](tests/13-main.c) [13-binary_tree_nodes.c](13-binary_tree_nodes.c): counts the number of nodes with at least 1 child in a binary tree.
 	- If tree is NULL, your function must return 0
 	- `Compliled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 13-binary_tree_nodes.c tests/13-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 13-nodes
 
- 
+ **14. Balance factor**
+- [tests/14-main](tests/14-main.c) [14-binary_tree_nodes.c](14-binary_tree_nodes.c):  measures the balance factor of a binary tree.
+	- If tree is NULL, your function must return 0
+	- `Compliled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 14-binary_tree_balance.c tests/14-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c 1-binary_tree_insert_left.c -o 14-balance
+
