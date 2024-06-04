@@ -28,13 +28,19 @@
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/3-main.c 3-binary_tree_delete.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 3-del
 
 **4. Is leaf**
-- [tests/4-main](tests/4-main.c) [](): Checks if node is leaf.
+- [tests/4-main](tests/4-main.c) [4-binary_tree_is_leaf.c](4-binary_tree_is_leaf.c): Checks if node is leaf.
 	- Returns 1 if node is leaf, 0 otherwise.
 	- Return 0 if node is NULL.
 	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 4-binary_tree_is_leaf.c tests/4-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 4-leaf
 
 **5. Is root**
-- [tests/4-main](tests/4-main.c) [](): Checks if node is leaf.
+- [tests/5-main](tests/5-main.c) [5-binary_tree_is_root.c](5-binary_tree_is_root.c): Checks if node is leaf.
 	- Returns 1 if node is root, 0 otherwise.
 	- Return 0 if node is NULL.
-	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 5-binary_tree_is_root.c tests/5-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 5-root	
+	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 5-binary_tree_is_root.c tests/5-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 5-root
+
+**6. Pre-order traversal**
+- [tests/6-main](tests/6-main.c) [6-binary_tree_preorder.c](6-binary_tree_preorder.c):  function that goes through a binary tree using pre-order traversal
+	- `Prototype: ` void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
+	- if tree of func is NULL, do nothing.
+	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/6-main.c 6-binary_tree_preorder.c 0-binary_tree_node.c -o 6-pre
