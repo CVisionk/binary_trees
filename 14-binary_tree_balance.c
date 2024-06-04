@@ -14,7 +14,7 @@ size_t binary_tree_balance(const binary_tree_t *tree)
 		return (binary_tree_balance(tree->left) + 1);
 	else if (tree->right != NULL && tree->left == NULL)
 		return (binary_tree_balance(tree->right) - 1);
-		
+
 	return (binary_tree_balance(tree->left) - binary_tree_balance(tree->right));
 
 }
