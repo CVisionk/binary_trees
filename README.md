@@ -56,7 +56,11 @@
         - `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post
 
 **9. Height**
-- [tests/9-main](tests/9-main.c) [9-binary_tree_height.c](9-binary_tree_height.c):
+- [tests/9-main](tests/9-main.c) [9-binary_tree_height.c](9-binary_tree_height.c): measures the height of a binary tree
 	- If tree is NULL, your function must return 0
-	- measures the height of a binary tree
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 9-binary_tree_height.c tests/9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
+
+**10. Depth**
+- [tests/10-main](tests/10-main.c) [](): measures the depth of a node in a binary tree
+	- If tree is NULL, your function must return 0
+	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 10-binary_tree_depth.c tests/10-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 10-depth
