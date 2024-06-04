@@ -47,12 +47,16 @@
 
 **7. In-order traversal**
 - [tests/7-main](tests/7-main.c) [7-binary_tree_inorder.c](7-binary_tree_inorder.c):  function that goes through a binary tree using in-order traversal
-        - `Prototype: ` void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
         - if tree of func is NULL, do nothing.
         - `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/7-main.c 7-binary_tree_inorder.c 0-binary_tree_node.c -o 7-in
 
 **8. Post-order traversal**
 - [tests/8-main](tests/8-main.c) [8-binary_tree_inorder.c](8-binary_tree_inorder.c):  function that goes through a binary tree using post-order traversal
-        - `Prototype: ` void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
         - if tree of func is NULL, do nothing.
         - `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post
+
+**9. Height**
+- [tests/9-main](tests/9-main.c) [9-binary_tree_height.c](9-binary_tree_height.c):
+	- If tree is NULL, your function must return 0
+	- measures the height of a binary tree
+	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 9-binary_tree_height.c tests/9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
