@@ -61,6 +61,16 @@
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 9-binary_tree_height.c tests/9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
 
 **10. Depth**
-- [tests/10-main](tests/10-main.c) [](): measures the depth of a node in a binary tree
+- [tests/10-main](tests/10-main.c) [10-binary_tree_depth.c](10-binary_tree_depth.c): measures the depth of a node in a binary tree
 	- If tree is NULL, your function must return 0
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 10-binary_tree_depth.c tests/10-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 10-depth
+
+**11. Size**
+- [tests/11-main](tests/11-main.c) [11-binary_tree_depth.c](11-binary_tree_size.c): measures the size of a node in a binary tree
+	- If tree is NULL, your function must return 0
+	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 11-binary_tree_size.c tests/11-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 11-size
+
+**11. Size**
+- [tests/12-main](tests/12-main.c) [12-binary_tree_leaves.c](12-binary_tree_leaves.c): counts the number of leaves in a binary tree.
+        - If tree is NULL, your function must return 0
+        - `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 12-binary_tree_leaves.c tests/12-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 12-leaves
