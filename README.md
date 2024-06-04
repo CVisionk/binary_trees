@@ -44,3 +44,10 @@
 	- `Prototype: ` void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 	- if tree of func is NULL, do nothing.
 	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/6-main.c 6-binary_tree_preorder.c 0-binary_tree_node.c -o 6-pre
+
+**7. In-order traversal**
+- [tests/7-main](tests/7-main.c) [7-binary_tree_inorder.c](7-binary_tree_inorder.c):  function that goes through a binary tree using in-order traversal
+        - `Prototype: ` void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
+        - if tree of func is NULL, do nothing.
+        - `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/7-main.c 7-binary_tree_inorder.c 0-binary_tree_node.c -o 7-in
+
