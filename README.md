@@ -22,6 +22,11 @@
 	- If parent already has right child, new node must take it's place and old node assigned as right child of new node.
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/2-main.c 2-binary_tree_insert_right.c 0-binary_tree_node.c -o 2-right
 
+**3. Delete**
+- [tests/2-main.c](tests/2-main.c) [3-binary_tree_delete.c](3-binary_tree_delete.c): deletes an entire binary tree.
+	-  node of the tree to delete.
+	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/3-main.c 3-binary_tree_delete.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 3-del
+
 **4. Is leaf**
 - [tests/4-main](tests/4-main.c) [](): Checks if node is leaf.
 	- Returns 1 if node is leaf, 0 otherwise.
