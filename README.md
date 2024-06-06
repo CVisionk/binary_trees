@@ -109,4 +109,12 @@
 	- If node has no uncle, return NULL
 	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/18-main.c 18-binary_tree_uncle.c 0-binary_tree_node.c -o 18-uncle
 
+**19. Ancestor**
+- [tests/19-main](tests/19-main.c) [19-binary_tree_ancestor.c](19-binary_tree_ancestor.c): Finds the ancestor of a node.
+	- Your function must return a pointer to the ancestor node
+	- If node is NULL , return NULL
+	- If node has no uncle, return NULL
+	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c tests/100-main.c 100-binary_trees_ancestor.c 0-binary_tree_node.c -o 100-ancestor
+
+
 
