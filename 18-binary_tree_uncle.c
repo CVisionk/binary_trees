@@ -4,7 +4,7 @@
 binary_tree_t *binary_tree_sibling(const binary_tree_t *tree);
 
 /**
- * binary_tree_sibling -  Finds the sibling of a node.
+ * binary_tree_uncle -  Finds the uncle of a node.
  * @tree: pointer to root node of tree to check for sibling.
  * Return: sibling of binary tree, NULL otherwise
  */
