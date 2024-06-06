@@ -94,3 +94,11 @@
 -  [tests/16-main](tests/16-main.c) [16-binary_tree_is_perfect.c](16-binary_tree_is_perfect.c): Checks if a binary tree is perfect.
 	- Checks if a binary tree is perfect.
 	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 16-binary_tree_is_perfect.c tests/16-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 16-perfect
+
+**17. Sibling**
+- [tests/17-main](tests/17-main.c) [17-binary_tree_sibling.c](17-binary_tree_sibling.c): Finds the sibling of a node.
+	- Your function must return a pointer to the sibling node
+	- If node is NULL or the parent is NULL, return NULL
+	- If node has no sibling, return NULL
+	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/17-main.c 17-binary_tree_sibling.c 0-binary_tree_node.c -o 17-sibling
+
