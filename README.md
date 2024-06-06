@@ -114,7 +114,7 @@
 	- Your function must return a pointer to the ancestor node
 	- If node is NULL , return NULL
 	- If node has no uncle, return NULL
-	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c tests/100-main.c 100-binary_trees_ancestor.c 0-binary_tree_node.c -o 100-ancestor
+	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/100-main.c 100-binary_trees_ancestor.c 0-binary_tree_node.c -o 100-ancestor
 
 
 
