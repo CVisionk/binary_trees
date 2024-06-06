@@ -102,3 +102,11 @@
 	- If node has no sibling, return NULL
 	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/17-main.c 17-binary_tree_sibling.c 0-binary_tree_node.c -o 17-sibling
 
+**18. Uncle**
+- [tests/18-main](tests/18-main.c) [18-binary_tree_uncle.c](18-binary_tree_uncle.c): Finds the uncle of a node.
+	- Your function must return a pointer to the uncle node
+	- If node is NULL , return NULL
+	- If node has no uncle, return NULL
+	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/18-main.c 18-binary_tree_uncle.c 0-binary_tree_node.c -o 18-uncle
+
+
