@@ -23,7 +23,7 @@
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/2-main.c 2-binary_tree_insert_right.c 0-binary_tree_node.c -o 2-right
 
 **3. Delete**
-- [tests/2-main.c](tests/2-main.c) [3-binary_tree_delete.c](3-binary_tree_delete.c): deletes an entire binary tree.
+- [tests/2-main.c](tests/2-main.c) [3-binary_tree_delete.c](3-binary_tree_delete.c): Deletes an entire binary tree.
 	-  node of the tree to delete.
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/3-main.c 3-binary_tree_delete.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 3-del
 
@@ -40,48 +40,57 @@
 	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 5-binary_tree_is_root.c tests/5-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 5-root
 
 **6. Pre-order traversal**
-- [tests/6-main](tests/6-main.c) [6-binary_tree_preorder.c](6-binary_tree_preorder.c):  function that goes through a binary tree using pre-order traversal
+- [tests/6-main](tests/6-main.c) [6-binary_tree_preorder.c](6-binary_tree_preorder.c): Function that goes through a binary tree using pre-order traversal
 	- `Prototype: ` void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 	- if tree of func is NULL, do nothing.
 	- `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/6-main.c 6-binary_tree_preorder.c 0-binary_tree_node.c -o 6-pre
 
 **7. In-order traversal**
-- [tests/7-main](tests/7-main.c) [7-binary_tree_inorder.c](7-binary_tree_inorder.c):  function that goes through a binary tree using in-order traversal
+- [tests/7-main](tests/7-main.c) [7-binary_tree_inorder.c](7-binary_tree_inorder.c): Function that goes through a binary tree using in-order traversal
         - if tree of func is NULL, do nothing.
         - `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/7-main.c 7-binary_tree_inorder.c 0-binary_tree_node.c -o 7-in
 
 **8. Post-order traversal**
-- [tests/8-main](tests/8-main.c) [8-binary_tree_inorder.c](8-binary_tree_inorder.c):  function that goes through a binary tree using post-order traversal
+- [tests/8-main](tests/8-main.c) [8-binary_tree_inorder.c](8-binary_tree_inorder.c): Function that goes through a binary tree using post-order traversal
         - if tree of func is NULL, do nothing.
         - `Compiled Using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c tests/8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post
 
 **9. Height**
-- [tests/9-main](tests/9-main.c) [9-binary_tree_height.c](9-binary_tree_height.c): measures the height of a binary tree
+- [tests/9-main](tests/9-main.c) [9-binary_tree_height.c](9-binary_tree_height.c): Measures the height of a binary tree
 	- If tree is NULL, your function must return 0
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 9-binary_tree_height.c tests/9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
 
 **10. Depth**
-- [tests/10-main](tests/10-main.c) [10-binary_tree_depth.c](10-binary_tree_depth.c): measures the depth of a node in a binary tree
+- [tests/10-main](tests/10-main.c) [10-binary_tree_depth.c](10-binary_tree_depth.c): Measures the depth of a node in a binary tree
 	- If tree is NULL, your function must return 0
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 10-binary_tree_depth.c tests/10-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 10-depth
 
 **11. Size**
-- [tests/11-main](tests/11-main.c) [11-binary_tree_depth.c](11-binary_tree_size.c): measures the size of a node in a binary tree
+- [tests/11-main](tests/11-main.c) [11-binary_tree_depth.c](11-binary_tree_size.c): Measures the size of a node in a binary tree
 	- If tree is NULL, your function must return 0
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 11-binary_tree_size.c tests/11-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 11-size
 
 **11. Size**
-- [tests/12-main](tests/12-main.c) [12-binary_tree_leaves.c](12-binary_tree_leaves.c): counts the number of leaves in a binary tree.
+- [tests/12-main](tests/12-main.c) [12-binary_tree_leaves.c](12-binary_tree_leaves.c): Counts the number of leaves in a binary tree.
 	- If tree is NULL, your function must return 0
 	- `Compiled using: ` gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 12-binary_tree_leaves.c tests/12-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 12-leaves
 
 **13. Nodes**
-- [tests/13-main](tests/13-main.c) [13-binary_tree_nodes.c](13-binary_tree_nodes.c): counts the number of nodes with at least 1 child in a binary tree.
+- [tests/13-main](tests/13-main.c) [13-binary_tree_nodes.c](13-binary_tree_nodes.c): Counts the number of nodes with at least 1 child in a binary tree.
 	- If tree is NULL, your function must return 0
 	- `Compliled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 13-binary_tree_nodes.c tests/13-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 13-nodes
 
  **14. Balance factor**
-- [tests/14-main](tests/14-main.c) [14-binary_tree_nodes.c](14-binary_tree_nodes.c):  measures the balance factor of a binary tree.
+- [tests/14-main](tests/14-main.c) [14-binary_tree_nodes.c](14-binary_tree_nodes.c):  Measures the balance factor of a binary tree.
 	- If tree is NULL, your function must return 0
 	- `Compliled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 14-binary_tree_balance.c tests/14-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c 1-binary_tree_insert_left.c -o 14-balance
 
+**15. Is full**
+- [tests/15-main](tests/15-main.c) [15-binary_tree_is_full.c](15-binary_tree_is_full.c): Checks if a binary tree is full
+	- If tree is NULL, your function must return 0
+	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 15-binary_tree_is_full.c tests/15-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 15-full
+
+**16. Is perfect**
+-  [tests/16-main](tests/16-main.c) [16-binary_tree_is_perfect.c](16-binary_tree_is_perfect.c): Checks if a binary tree is perfect.
+	- Checks if a binary tree is perfect.
+	- `Compiled using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 16-binary_tree_is_perfect.c tests/16-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 16-perfect
