@@ -255,7 +255,7 @@
 	- `Compile using: `gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c tests/133-main.c 133-heap_extract.c 132-array_to_heap.c 131-heap_insert.c 3-binary_tree_delete.c -o 133-heap_extract
 
 **40. Heap - Sort**
-- [tests/134-main](tests/134-main.c) []():
+- [tests/134-main](tests/134-main.c) [134-heap_to_sorted_array.c](134-heap_to_sorted_array.c):
 	- Where heap is a pointer to the root node of the heap to convert
 	- And size is an address to store the size of the array
 	- You can assume size is a valid address
