@@ -134,7 +134,7 @@
 **23. Rotate right**
 - [tests/104-main](tests/104-main.c) [104-binary_tree_rotate_right.c](104-binary_tree_rotate_right.c): function that performs a right-rotation on a binary tree.
 	-  function must return a pointer to the new root node of the tree once rotated.
-	- `Compile using: `gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 104-binary_tree_rotate_right.c tests/104-main.c 0-binary_tree_node.c -o 104-rotr
+	- `Compile using: `gcc -Wall -Wextra -Werror -pedantic -I. binary_tree_print.c 104-binary_tree_rotate_right.c tests/104-main.c 0-binary_tree_node.c -o 104-rotr
 
 **24. Is BST**
 - [tests/110-main](tests/110-main.c) [110-binary_tree_is_bst.c](110-binary_tree_is_bst.c): function that checks if a binary tree is a valid Binary Search Tree.
