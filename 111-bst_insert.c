@@ -37,7 +37,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 		else
 		{
 			free(child);
-			return (temp);
+			return (NULL);
 		}
 	}
 
