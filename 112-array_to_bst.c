@@ -10,15 +10,16 @@ bst_t *bst_insert(bst_t **tree, int value);
 
 bst_t *array_to_bst(int *array, size_t size)
 {
-	bst_t *tree;
+	bst_t *tree = NULL;
+	size_t i;
 
-	if (size == 0)
+	if (array == NULL)
 		return (NULL);
 
-	tree = bst_insert(NULL, array[0]);
-
-	for (size_t i = 1; i < size; i++)
-		bst_insert(tree, array[i]);
+	for (i = 0; i < size; i++)
+	{
+		bst_insert(&tree, array[i]);
+	}
 
 	return (tree);
 }
@@ -60,7 +61,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 		else
 		{
 			free(child);
-			return (temp);
+			return (NULL);
 		}
 	}
 
